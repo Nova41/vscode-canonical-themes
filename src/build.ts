@@ -1,4 +1,4 @@
-import { writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import type { ThemeDefinition } from './lib/types';
 
@@ -43,6 +43,7 @@ await register('./themes/tango-dark', 'tango-dark-color-theme.json');
 await register('./themes/tango-dark-aa', 'tango-dark-aa-color-theme.json');
 
 const outDir = resolve(import.meta.dirname, '../themes');
+mkdirSync(outDir, { recursive: true });
 
 for (const { theme, filename } of themes) {
   const { uiTheme: _, ...output } = theme;

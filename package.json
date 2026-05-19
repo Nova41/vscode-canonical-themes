@@ -1,5 +1,5 @@
 {
-  "name": "@nova41/vscode-canonical-themes",
+  "name": "vscode-canonical-themes",
   "displayName": "Canonical Themes",
   "version": "0.0.1",
   "description": "The palettes you love, the contrast you need",

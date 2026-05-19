@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "preserve",
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "strict": false,
+    "target": "esnext",
+    "types": ["node"]
+  },
+  "include": ["src"]
+}

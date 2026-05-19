@@ -1,0 +1,130 @@
+{
+  "name": "@nova41/vscode-canonical-themes",
+  "displayName": "Canonical Themes",
+  "version": "0.0.1",
+  "description": "The palettes you love, the contrast you need",
+  "categories": [
+    "Themes"
+  ],
+  "publisher": "nova41",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nova41/vscode-canonical-themes"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "bun run src/build.ts",
+    "build:icon": "rsvg-convert -w 256 -h 256 icon.svg -o icon.png",
+    "build:watch": "bun --watch run src/build.ts",
+    "clean": "rm -rf themes",
+    "lint": "bun run src/lint.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "oxfmt": "^0.50.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Canonical - Atom One Light",
+        "uiTheme": "vs",
+        "path": "./themes/atom-one-light-color-theme.json"
+      },
+      {
+        "label": "Canonical - Atom One Light (WCAG 2.1 AA)",
+        "uiTheme": "vs",
+        "path": "./themes/atom-one-light-aa-color-theme.json"
+      },
+      {
+        "label": "Canonical - Atom One Light (Dark Header)",
+        "uiTheme": "vs",
+        "path": "./themes/atom-one-light-dark-header-color-theme.json"
+      },
+      {
+        "label": "Canonical - Atom One Light (Dark Header, WCAG 2.1 AA)",
+        "uiTheme": "vs",
+        "path": "./themes/atom-one-light-dark-header-aa-color-theme.json"
+      },
+      {
+        "label": "Canonical - Atom One Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/atom-one-dark-color-theme.json"
+      },
+      {
+        "label": "Canonical - Atom One Dark (WCAG 2.1 AA)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/atom-one-dark-aa-color-theme.json"
+      },
+      {
+        "label": "Canonical - Dracula Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-plus-color-theme.json"
+      },
+      {
+        "label": "Canonical - Dracula Plus (WCAG 2.1 AA)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-plus-aa-color-theme.json"
+      },
+      {
+        "label": "Canonical - Catppuccin Latte",
+        "uiTheme": "vs",
+        "path": "./themes/catppuccin-latte-color-theme.json"
+      },
+      {
+        "label": "Canonical - Catppuccin Latte (WCAG 2.1 AA)",
+        "uiTheme": "vs",
+        "path": "./themes/catppuccin-latte-aa-color-theme.json"
+      },
+      {
+        "label": "Canonical - Catppuccin Latte (Dark Header)",
+        "uiTheme": "vs",
+        "path": "./themes/catppuccin-latte-dark-header-color-theme.json"
+      },
+      {
+        "label": "Canonical - Catppuccin Latte (Dark Header, WCAG 2.1 AA)",
+        "uiTheme": "vs",
+        "path": "./themes/catppuccin-latte-dark-header-aa-color-theme.json"
+      },
+      {
+        "label": "Canonical - Catppuccin Mocha",
+        "uiTheme": "vs-dark",
+        "path": "./themes/catppuccin-mocha-color-theme.json"
+      },
+      {
+        "label": "Canonical - Catppuccin Mocha (WCAG 2.1 AA)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/catppuccin-mocha-aa-color-theme.json"
+      },
+      {
+        "label": "Canonical - Alabaster Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/alabaster-dark-color-theme.json"
+      },
+      {
+        "label": "Canonical - Alabaster Dark+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/alabaster-dark-plus-color-theme.json"
+      },
+      {
+        "label": "Canonical - Alabaster Dark+ (WCAG 2.1 AA)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/alabaster-dark-plus-aa-color-theme.json"
+      },
+      {
+        "label": "Canonical - Tango Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tango-dark-color-theme.json"
+      },
+      {
+        "label": "Canonical - Tango Dark (WCAG 2.1 AA)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tango-dark-aa-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.120.0"
+  }
+}

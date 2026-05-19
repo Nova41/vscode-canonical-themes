@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/Nova41/vscode-canonical-themes/blob/master/icon.png?raw=true" alt="Logo of Canonical Theme" />
+  <img src="https://github.com/Nova41/vscode-canonical-themes/blob/main/icon.png?raw=true" alt="Logo of Canonical Theme" />
 </p>
 
 Popular color themes for VS Code on neutral, tint-free UI chrome.

@@ -3,7 +3,7 @@ import { deriveTheme } from '../lib/types';
 import { theme as base } from './atom-one-light-aa';
 
 export const theme = deriveTheme(base, {
-  name: 'Canonical - Atom One Light (Dark Header, WCAG 2.1 AA)',
+  name: 'Canonical AA - Atom One Light (Dark Header)',
   colors: {
     'activityBar.background': palette.gray1,
     'titleBar.border': palette.gray1,

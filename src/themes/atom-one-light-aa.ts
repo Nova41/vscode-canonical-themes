@@ -3,7 +3,7 @@ import { deriveTheme } from '../lib/types';
 import { theme as base } from './atom-one-light';
 
 export const theme = deriveTheme(base, {
-  name: 'Canonical - Atom One Light (WCAG 2.1 AA)',
+  name: 'Canonical AA - Atom One Light',
   tokenColors: [
     {
       name: 'Comments',

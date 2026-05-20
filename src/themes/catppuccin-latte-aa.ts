@@ -3,7 +3,7 @@ import { deriveTheme } from '../lib/types';
 import { theme as base } from './catppuccin-latte';
 
 export const theme = deriveTheme(base, {
-  name: 'Canonical - Catppuccin Latte (WCAG 2.1 AA)',
+  name: 'Canonical AA - Catppuccin Latte',
   tokenColors: [
     {
       name: 'Basic text & variable names',

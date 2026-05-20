@@ -3,7 +3,7 @@ import { deriveTheme } from '../lib/types';
 import { theme as base } from './tango-dark';
 
 export const theme = deriveTheme(base, {
-  name: 'Canonical - Tango Dark (WCAG 2.1 AA)',
+  name: 'Canonical AA - Tango Dark',
   tokenColors: [
     {
       name: 'Comments',

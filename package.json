@@ -32,7 +32,7 @@
         "path": "./themes/atom-one-light-color-theme.json"
       },
       {
-        "label": "Canonical - Atom One Light (WCAG 2.1 AA)",
+        "label": "Canonical AA - Atom One Light",
         "uiTheme": "vs",
         "path": "./themes/atom-one-light-aa-color-theme.json"
       },
@@ -42,7 +42,7 @@
         "path": "./themes/atom-one-light-dark-header-color-theme.json"
       },
       {
-        "label": "Canonical - Atom One Light (Dark Header, WCAG 2.1 AA)",
+        "label": "Canonical AA - Atom One Light (Dark Header)",
         "uiTheme": "vs",
         "path": "./themes/atom-one-light-dark-header-aa-color-theme.json"
       },
@@ -52,7 +52,7 @@
         "path": "./themes/atom-one-dark-color-theme.json"
       },
       {
-        "label": "Canonical - Atom One Dark (WCAG 2.1 AA)",
+        "label": "Canonical AA - Atom One Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/atom-one-dark-aa-color-theme.json"
       },
@@ -62,7 +62,7 @@
         "path": "./themes/dracula-plus-color-theme.json"
       },
       {
-        "label": "Canonical - Dracula Plus (WCAG 2.1 AA)",
+        "label": "Canonical AA - Dracula Plus",
         "uiTheme": "vs-dark",
         "path": "./themes/dracula-plus-aa-color-theme.json"
       },
@@ -72,7 +72,7 @@
         "path": "./themes/catppuccin-latte-color-theme.json"
       },
       {
-        "label": "Canonical - Catppuccin Latte (WCAG 2.1 AA)",
+        "label": "Canonical AA - Catppuccin Latte",
         "uiTheme": "vs",
         "path": "./themes/catppuccin-latte-aa-color-theme.json"
       },
@@ -82,7 +82,7 @@
         "path": "./themes/catppuccin-latte-dark-header-color-theme.json"
       },
       {
-        "label": "Canonical - Catppuccin Latte (Dark Header, WCAG 2.1 AA)",
+        "label": "Canonical AA - Catppuccin Latte (Dark Header)",
         "uiTheme": "vs",
         "path": "./themes/catppuccin-latte-dark-header-aa-color-theme.json"
       },
@@ -92,7 +92,7 @@
         "path": "./themes/catppuccin-mocha-color-theme.json"
       },
       {
-        "label": "Canonical - Catppuccin Mocha (WCAG 2.1 AA)",
+        "label": "Canonical AA - Catppuccin Mocha",
         "uiTheme": "vs-dark",
         "path": "./themes/catppuccin-mocha-aa-color-theme.json"
       },
@@ -107,7 +107,7 @@
         "path": "./themes/alabaster-dark-plus-color-theme.json"
       },
       {
-        "label": "Canonical - Alabaster Dark+ (WCAG 2.1 AA)",
+        "label": "Canonical AA - Alabaster Dark+",
         "uiTheme": "vs-dark",
         "path": "./themes/alabaster-dark-plus-aa-color-theme.json"
       },
@@ -117,7 +117,7 @@
         "path": "./themes/tango-dark-color-theme.json"
       },
       {
-        "label": "Canonical - Tango Dark (WCAG 2.1 AA)",
+        "label": "Canonical AA - Tango Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/tango-dark-aa-color-theme.json"
       }

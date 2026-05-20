@@ -4,7 +4,7 @@ import { deriveTheme } from '../lib/types';
 import { theme as base } from './catppuccin-latte-aa';
 
 export const theme = deriveTheme(base, {
-  name: 'Canonical - Catppuccin Latte (Dark Header, WCAG 2.1 AA)',
+  name: 'Canonical AA - Catppuccin Latte (Dark Header)',
   colors: {
     'activityBar.background': dark.gray1,
     'titleBar.border': dark.gray1,

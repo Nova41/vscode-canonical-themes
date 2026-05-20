@@ -3,7 +3,7 @@ import { deriveTheme } from '../lib/types';
 import { theme as base } from './dracula-plus';
 
 export const theme = deriveTheme(base, {
-  name: 'Canonical - Dracula Plus (WCAG 2.1 AA)',
+  name: 'Canonical AA - Dracula Plus',
   tokenColors: [
     {
       name: 'Comments',

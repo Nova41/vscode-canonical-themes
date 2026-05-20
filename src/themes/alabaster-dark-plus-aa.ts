@@ -3,7 +3,7 @@ import { deriveTheme } from '../lib/types';
 import { theme as base } from './alabaster-dark-plus';
 
 export const theme = deriveTheme(base, {
-  name: 'Canonical - Alabaster Dark+ (WCAG 2.1 AA)',
+  name: 'Canonical AA - Alabaster Dark+',
   tokenColors: [
     {
       name: 'Comments',

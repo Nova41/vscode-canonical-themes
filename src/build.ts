@@ -41,6 +41,8 @@ await register('./themes/alabaster-dark-plus', 'alabaster-dark-plus-color-theme.
 await register('./themes/alabaster-dark-plus-aa', 'alabaster-dark-plus-aa-color-theme.json');
 await register('./themes/tango-dark', 'tango-dark-color-theme.json');
 await register('./themes/tango-dark-aa', 'tango-dark-aa-color-theme.json');
+await register('./themes/xcode-default-light', 'xcode-default-light-color-theme.json');
+await register('./themes/xcode-default-light-aa', 'xcode-default-light-aa-color-theme.json');
 
 const outDir = resolve(import.meta.dirname, '../themes');
 mkdirSync(outDir, { recursive: true });

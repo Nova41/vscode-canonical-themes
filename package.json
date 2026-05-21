@@ -120,6 +120,16 @@
         "label": "Canonical AA - Tango Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/tango-dark-aa-color-theme.json"
+      },
+      {
+        "label": "Canonical - Xcode Default Light",
+        "uiTheme": "vs",
+        "path": "./themes/xcode-default-light-color-theme.json"
+      },
+      {
+        "label": "Canonical AA - Xcode Default Light",
+        "uiTheme": "vs",
+        "path": "./themes/xcode-default-light-aa-color-theme.json"
       }
     ]
   },

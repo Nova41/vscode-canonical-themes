@@ -68,7 +68,7 @@ export const theme: ThemeDefinition = {
     {
       name: 'Comments',
       scope: ['comment', 'punctuation.definition.comment'],
-      settings: { foreground: palette.gray6, fontStyle: 'italic' },
+      settings: { foreground: palette.gray6 },
     },
     {
       name: 'Comments: Documentation',

@@ -22,7 +22,7 @@ This is a VS Code color theme extension. Themes are authored in TypeScript and c
 - `src/themes/`: Maps palette colors to VS Code UI keys (`colors`) and TextMate token scopes (`tokenColors`). Each file exports a `ThemeDefinition`.
 - `src/lib/types.ts`: Shared types (`ThemeDefinition`, `TokenColor`) and `deriveTheme()` for creating variants.
 - `src/build.ts`: Registers themes and writes JSON to `themes/`.
-- `src/lint.ts`: Contrast linter for border vs surface pairs.
+- `src/lint.ts`: Contrast and style linter (token contrast, border contrast, italic detection).
 
 **Key pattern — `deriveTheme(base, overrides)`:** Used when one theme is a variant of another (e.g., Alabaster Dark+ derives from Alabaster Dark, overriding only `tokenColors`). It deep-merges `colors` and replaces `tokenColors` if provided.
 
@@ -37,7 +37,12 @@ This is a VS Code color theme extension. Themes are authored in TypeScript and c
 
 ## Design Decisions
 
+- Each theme offers an original and an WCAG 2.1 AA-compliant variant.
+- Each theme maps terminal ANSI colors from its palette.
 - Dark theme UI grays are neutral (no color tint) unless the theme's identity requires it (e.g., Atom One Dark has a subtle cool-blue tint).
 - No italic `fontStyle` on any token color.
-- Each theme maps terminal ANSI colors from its palette.
-- The lint threshold (1.2 contrast ratio) is calibrated to GitHub Primer's border standard. Borders that intentionally match their surface (ratio 1.0) are suppressed.
+- AA variants must pass 4.5:1 text contrast; non-AA themes warn but don't fail (palette faithfulness). Borders: 1.2 threshold (GitHub Primer). Borders matching their surface (ratio 1.0) are suppressed.
+
+## Workflows
+
+- Use `bun run lint` to get suggested AA-compliant colors (shown only for AA theme errors). Don't compute colors inline.

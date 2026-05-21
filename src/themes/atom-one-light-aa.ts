@@ -8,12 +8,12 @@ export const theme = deriveTheme(base, {
     {
       name: 'Comments',
       scope: ['comment', 'punctuation.definition.comment'],
-      settings: { foreground: palette.gray3, fontStyle: 'italic' },
+      settings: { foreground: palette.mono3 },
     },
     {
       name: 'Comments: Documentation',
       scope: ['comment.documentation', 'comment.block.documentation'],
-      settings: { foreground: palette.gray3 },
+      settings: { foreground: palette.mono3 },
     },
     {
       name: 'Operators',

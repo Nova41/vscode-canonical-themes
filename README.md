@@ -4,17 +4,18 @@
   <img src="https://www.w3.org/WAI/wcag21/wcag2.1AA-v.png" alt="W3C WCAG 2.1 AA" width="88" height="32" />
 </p>
 
-<p align="center">
-  <img src="https://github.com/Nova41/vscode-canonical-themes/blob/main/icon.png?raw=true" alt="Logo of Canonical Theme" />
+<p>
+  <img src="public/preview-typescript-atom-one-dark.png" alt="Atom One Dark" width="49%" />
+  <img src="public/preview-typescript-atom-one-light.png" alt="Atom One Light" width="49%" />
 </p>
 
-Popular color themes for VS Code on neutral, tint-free UI chrome.
+Popular color themes for VS Code on neutral UI chrome.
 
 - 100% faithfully rebuilt from original palettes
 - Full 16-color ANSI terminal mapping per theme
 - Border contrast calibrated to 1.2 (GitHub Primer's standard)
-- WCAG 2.1 AA variants with contrast calibrated to 4.5:1 for text and 3.0:1 for comments
-- No bold or italic tokens
+- WCAG 2.1 AA variants with contrast calibrated to 4.5:1
+- No italic tokens
 
 ## Themes
 
@@ -30,15 +31,16 @@ Popular color themes for VS Code on neutral, tint-free UI chrome.
 | Alabaster Dark | Minimal highlighting (comments, strings, constants, definitions) |
 | Alabaster Dark+ | Alabaster palette with full syntax coverage |
 | Tango Dark | Tango terminal palette adapted for code |
+| Xcode Default Light | Xcode default palette on neutral white |
 
-Each theme above has a **(WCAG 2.1 AA)** variant with adjusted colors.
+Each theme above has a **(WCAG 2.1 AA)** variant with adjusted colors, except Alabaster Dark (plain).
 
 ## Install
 
 Search "Canonical Themes" in the VS Code extensions marketplace, or install from VSIX:
 
 ```sh
-code --install-extension canonical-themes-0.0.1.vsix
+code --install-extension canonical-themes-0.1.1.vsix
 ```
 
 ## Credits
@@ -50,6 +52,7 @@ Color palettes adapted from:
 - [Catppuccin](https://github.com/catppuccin/catppuccin) by Catppuccin Org
 - [Alabaster](https://github.com/tonsky/sublime-scheme-alabaster) by Nikita Prokopov
 - [Tango](http://tango.freedesktop.org/) by the Tango Desktop Project
+- [Xcode](https://developer.apple.com/xcode/) by Apple
 
 These themes are independent interpretations and are not official ports or affiliated with the original projects.
 

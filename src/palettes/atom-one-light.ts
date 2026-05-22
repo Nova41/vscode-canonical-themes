@@ -7,6 +7,7 @@ export const palette = {
   amber: '#C18401',
   darkAmber: '#986801',
   teal: '#0184BC',
+  accent: '#5A72E9',
   mono1: '#383A42',
   mono2: '#696C77',
   mono3: '#A0A1A7',

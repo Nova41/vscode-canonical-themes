@@ -7,7 +7,8 @@ export const theme: ThemeDefinition = {
   uiTheme: 'vs-dark',
   colors: {
     'activityBar.background': palette.gray1,
-    'button.background': palette.blue,
+    'button.background': palette.accent,
+    'button.hoverBackground': blend(palette.accent, '#ffffff', 0.92),
     'list.highlightForeground': palette.blue,
     'textLink.foreground': palette.blue,
     'textLink.activeForeground': palette.blue,

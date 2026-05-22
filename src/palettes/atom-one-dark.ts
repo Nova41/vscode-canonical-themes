@@ -8,6 +8,7 @@ export const palette = {
   yellow: '#E5C07B',
   darkYellow: '#D19A66',
   cyan: '#56B6C2',
+  accent: '#5683DC',
 
   // UI grays (dark → light, slight cool-blue tint)
   gray1: '#191A1E',

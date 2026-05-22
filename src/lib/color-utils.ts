@@ -8,7 +8,8 @@ export function blend(fg: string, bg: string, opacity: number): string {
 }
 
 function parseHex(color: string): [number, number, number] {
-  const c = color.replace('#', '');
+  let c = color.replace('#', '');
+  if (c.length === 3) c = c[0] + c[0] + c[1] + c[1] + c[2] + c[2];
   return [
     parseInt(c.slice(0, 2), 16),
     parseInt(c.slice(2, 4), 16),

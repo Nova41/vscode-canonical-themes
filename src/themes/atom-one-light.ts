@@ -1,4 +1,5 @@
 import { palette } from '../palettes/atom-one-light';
+import { blend } from '../lib/color-utils';
 import type { ThemeDefinition } from '../lib/types';
 
 export const theme: ThemeDefinition = {
@@ -6,7 +7,8 @@ export const theme: ThemeDefinition = {
   uiTheme: 'vs',
   colors: {
     'activityBar.background': palette.gray1,
-    'button.background': palette.blue,
+    'button.background': palette.accent,
+    'button.hoverBackground': blend(palette.accent, '#000000', 0.92),
     'list.highlightForeground': palette.blue,
     'textLink.foreground': palette.blue,
     'textLink.activeForeground': palette.blue,

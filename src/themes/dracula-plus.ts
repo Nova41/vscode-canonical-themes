@@ -15,7 +15,7 @@ export const theme: ThemeDefinition = {
     'focusBorder': palette.purple + '80',
     'settings.focusedRowBorder': palette.purple,
     'settings.modifiedItemIndicator': palette.purple,
-    'textPreformat.foreground': palette.pink,
+    'textPreformat.foreground': palette.orange,
     'editor.background': palette.gray2,
     'editor.foreground': palette.white,
     'editorIndentGuide.background1': palette.gray4 + '80',

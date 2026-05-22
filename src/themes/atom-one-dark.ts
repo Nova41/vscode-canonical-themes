@@ -1,4 +1,5 @@
 import { palette } from '../palettes/atom-one-dark';
+import { blend } from '../lib/color-utils';
 import type { ThemeDefinition } from '../lib/types';
 
 export const theme: ThemeDefinition = {
@@ -13,7 +14,9 @@ export const theme: ThemeDefinition = {
     'focusBorder': palette.blue + '80',
     'settings.focusedRowBorder': palette.blue,
     'settings.modifiedItemIndicator': palette.blue,
-    'textPreformat.foreground': palette.red,
+    'textPreformat.foreground': palette.darkYellow,
+    'editor.selectionBackground': palette.blue + '40',
+    'terminal.selectionBackground': blend(palette.blue, palette.gray2, 0.25),
     'editor.background': palette.gray2,
     'editor.foreground': palette.gray7,
     'editorIndentGuide.background1': palette.gray4 + '80',
@@ -33,6 +36,8 @@ export const theme: ThemeDefinition = {
     'statusBar.background': palette.gray1,
     'statusBar.border': palette.gray4,
     'statusBar.foreground': palette.gray7,
+    'statusBar.debuggingBackground': palette.darkYellow,
+    'statusBar.debuggingForeground': palette.gray1,
     'tab.activeBackground': palette.gray2,
     'tab.activeBorder': palette.gray2,
     'tab.activeBorderTop': palette.blue,

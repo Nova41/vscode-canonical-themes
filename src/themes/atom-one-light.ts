@@ -13,7 +13,7 @@ export const theme: ThemeDefinition = {
     'focusBorder': palette.blue + '80',
     'settings.focusedRowBorder': palette.blue,
     'settings.modifiedItemIndicator': palette.blue,
-    'textPreformat.foreground': palette.red,
+    'textPreformat.foreground': palette.darkAmber,
     'editor.background': palette.gray8,
     'editor.foreground': palette.gray2,
     'editorIndentGuide.background1': palette.gray2 + '1F',
